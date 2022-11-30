@@ -132,9 +132,7 @@ public class Customer implements Service {
 
     @Override
     public Customer[] getAll(Customer[] customers) {
-        for (int i = 0; i < customers.length; i++) {
             return customers;
-        }
-        return null;
+
     }
 }
